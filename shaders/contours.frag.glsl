@@ -30,8 +30,9 @@ void main() {
     // We add two lights to the scene. Feel free to change these
     // values, or add more lights at different positions!
     vec3 color = vec3(0.0);
-    color += 30.0 * illuminate(vec3(0.0, 6.0, 9.0));
-    color += 20.0 * illuminate(vec3(0.0, 10.0, 2.0));
+    color += 30.0 * illuminate(vec3(6.0, 3.0, 6.0));
+    color += 20.0 * illuminate(vec3(0.0, 10.0, 0.0));
+    color += 10.0 * illuminate(vec3(2.0, -8.0, 2.0));
 
     // Stylized shading
     float value = 0.2126 * color.r + 0.7152 * color.g + 0.0722 * color.b;
