@@ -27,9 +27,6 @@ void main() {
     }
 
     // 3. Uncomment these lines to produce interesting colors
-    // float c = mod(3.0 * cell.x + 2.0 * cell.y, 7.0) / 7.0;
-    // color = 1.0 - (1.0 - color) * vec3(c, c, c);
-
     float r = mod(2.0 * cell.x + 3.0 * cell.y, 10.0) / 10.0;
     float g = mod(3.0 * cell.x + 2.0 * cell.y, 10.0) / 10.0;
     float b = mod(4.0 * cell.x + 5.0 * cell.y, 10.0) / 10.0;
